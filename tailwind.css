@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap) format('woff2'),
+        local('sans-serif');
+
+        font-display: swap;
+    }
+
+}
+
+@layer components {
+
+    .btn-health-insurance {
+        @apply md:w-171px md:h-83px border border-gray-300 rounded-md overflow-hidden cursor-pointer transform hover:-translate-y-0.5 hover:shadow
+    }
+
+    .btn-request-quote {
+        @apply flex items-center justify-center gap-3 text-center px-4 py-3  text-white text-xl rounded-md cursor-pointer transform hover:-translate-y-0.5 hover:shadow-md
+    }
+
+    .animate-ease-in-out {
+        @apply transition duration-200 ease-in-out
+    }
+}

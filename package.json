@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-webp": "^4.0.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
