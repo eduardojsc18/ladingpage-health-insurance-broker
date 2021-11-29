@@ -56,13 +56,16 @@ module.exports = {
       },
 
       backgroundImage: {
-        'header': 'url("../view/assets/img/banners/plantao-saude-1-background-header.webp")'
+        'header-md': 'url("../img/banners/plantao-saude-1-background-header.webp")',
+        'header': 'url("../img/banners/fundo-topo-mobile.webp")'
       },
 
       width: {
         '171px': '171px',
         '300px': '300px',
         '330px': '330px',
+        '7px': '7px',
+
       },
 
       height: {
@@ -83,6 +86,11 @@ module.exports = {
 
       scale: {
         '120': '1.2'
+      },
+
+      inset: {
+        '-7px': '-7px',
+        '-36px': '-36px'
       }
 
     },

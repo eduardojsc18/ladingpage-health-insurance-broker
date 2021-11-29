@@ -675,6 +675,7 @@ video {
 
 .btn-request-quote {
   display: flex;
+  width: 100%;
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -702,6 +703,7 @@ video {
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -709,6 +711,12 @@ video {
 .btn-request-quote:hover {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.bg-instagram {
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 .animate-ease-in-out {
@@ -1421,6 +1429,20 @@ video {
   left: -100%;
 }
 
+.-inset-7px {
+  top: -7px;
+  right: -7px;
+  bottom: -7px;
+  left: -7px;
+}
+
+.-inset-36px {
+  top: -36px;
+  right: -36px;
+  bottom: -36px;
+  left: -36px;
+}
+
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -1844,6 +1866,16 @@ video {
 .-inset-x-full {
   left: -100%;
   right: -100%;
+}
+
+.-inset-x-7px {
+  left: -7px;
+  right: -7px;
+}
+
+.-inset-x-36px {
+  left: -36px;
+  right: -36px;
 }
 
 .inset-y-0 {
@@ -2271,6 +2303,16 @@ video {
   bottom: -100%;
 }
 
+.-inset-y-7px {
+  top: -7px;
+  bottom: -7px;
+}
+
+.-inset-y-36px {
+  top: -36px;
+  bottom: -36px;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -2609,6 +2651,14 @@ video {
 
 .-top-full {
   top: -100%;
+}
+
+.-top-7px {
+  top: -7px;
+}
+
+.-top-36px {
+  top: -36px;
 }
 
 .right-0 {
@@ -2951,6 +3001,14 @@ video {
   right: -100%;
 }
 
+.-right-7px {
+  right: -7px;
+}
+
+.-right-36px {
+  right: -36px;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -3291,6 +3349,14 @@ video {
   bottom: -100%;
 }
 
+.-bottom-7px {
+  bottom: -7px;
+}
+
+.-bottom-36px {
+  bottom: -36px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -3629,6 +3695,14 @@ video {
 
 .-left-full {
   left: -100%;
+}
+
+.-left-7px {
+  left: -7px;
+}
+
+.-left-36px {
+  left: -36px;
 }
 
 .isolate {
@@ -6975,6 +7049,10 @@ video {
 
 .w-330px {
   width: 330px;
+}
+
+.w-7px {
+  width: 7px;
 }
 
 .min-w-0 {
@@ -18851,8 +18929,12 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-header-md {
+  background-image: url("../img/banners/plantao-saude-1-background-header.webp");
+}
+
 .bg-header {
-  background-image: url("../view/assets/img/banners/plantao-saude-1-background-header.webp");
+  background-image: url("../img/banners/fundo-topo-mobile.webp");
 }
 
 .from-transparent {
@@ -36027,6 +36109,20 @@ video {
     left: -100%;
   }
 
+  .sm\:-inset-7px {
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+  }
+
+  .sm\:-inset-36px {
+    top: -36px;
+    right: -36px;
+    bottom: -36px;
+    left: -36px;
+  }
+
   .sm\:inset-x-0 {
     left: 0px;
     right: 0px;
@@ -36450,6 +36546,16 @@ video {
   .sm\:-inset-x-full {
     left: -100%;
     right: -100%;
+  }
+
+  .sm\:-inset-x-7px {
+    left: -7px;
+    right: -7px;
+  }
+
+  .sm\:-inset-x-36px {
+    left: -36px;
+    right: -36px;
   }
 
   .sm\:inset-y-0 {
@@ -36877,6 +36983,16 @@ video {
     bottom: -100%;
   }
 
+  .sm\:-inset-y-7px {
+    top: -7px;
+    bottom: -7px;
+  }
+
+  .sm\:-inset-y-36px {
+    top: -36px;
+    bottom: -36px;
+  }
+
   .sm\:top-0 {
     top: 0px;
   }
@@ -37215,6 +37331,14 @@ video {
 
   .sm\:-top-full {
     top: -100%;
+  }
+
+  .sm\:-top-7px {
+    top: -7px;
+  }
+
+  .sm\:-top-36px {
+    top: -36px;
   }
 
   .sm\:right-0 {
@@ -37557,6 +37681,14 @@ video {
     right: -100%;
   }
 
+  .sm\:-right-7px {
+    right: -7px;
+  }
+
+  .sm\:-right-36px {
+    right: -36px;
+  }
+
   .sm\:bottom-0 {
     bottom: 0px;
   }
@@ -37897,6 +38029,14 @@ video {
     bottom: -100%;
   }
 
+  .sm\:-bottom-7px {
+    bottom: -7px;
+  }
+
+  .sm\:-bottom-36px {
+    bottom: -36px;
+  }
+
   .sm\:left-0 {
     left: 0px;
   }
@@ -38235,6 +38375,14 @@ video {
 
   .sm\:-left-full {
     left: -100%;
+  }
+
+  .sm\:-left-7px {
+    left: -7px;
+  }
+
+  .sm\:-left-36px {
+    left: -36px;
   }
 
   .sm\:isolate {
@@ -41581,6 +41729,10 @@ video {
 
   .sm\:w-330px {
     width: 330px;
+  }
+
+  .sm\:w-7px {
+    width: 7px;
   }
 
   .sm\:min-w-0 {
@@ -53391,8 +53543,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-header-md {
+    background-image: url("../img/banners/plantao-saude-1-background-header.webp");
+  }
+
   .sm\:bg-header {
-    background-image: url("../view/assets/img/banners/plantao-saude-1-background-header.webp");
+    background-image: url("../img/banners/fundo-topo-mobile.webp");
   }
 
   .sm\:from-transparent {
@@ -70151,6 +70307,20 @@ video {
     left: -100%;
   }
 
+  .md\:-inset-7px {
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+  }
+
+  .md\:-inset-36px {
+    top: -36px;
+    right: -36px;
+    bottom: -36px;
+    left: -36px;
+  }
+
   .md\:inset-x-0 {
     left: 0px;
     right: 0px;
@@ -70574,6 +70744,16 @@ video {
   .md\:-inset-x-full {
     left: -100%;
     right: -100%;
+  }
+
+  .md\:-inset-x-7px {
+    left: -7px;
+    right: -7px;
+  }
+
+  .md\:-inset-x-36px {
+    left: -36px;
+    right: -36px;
   }
 
   .md\:inset-y-0 {
@@ -71001,6 +71181,16 @@ video {
     bottom: -100%;
   }
 
+  .md\:-inset-y-7px {
+    top: -7px;
+    bottom: -7px;
+  }
+
+  .md\:-inset-y-36px {
+    top: -36px;
+    bottom: -36px;
+  }
+
   .md\:top-0 {
     top: 0px;
   }
@@ -71339,6 +71529,14 @@ video {
 
   .md\:-top-full {
     top: -100%;
+  }
+
+  .md\:-top-7px {
+    top: -7px;
+  }
+
+  .md\:-top-36px {
+    top: -36px;
   }
 
   .md\:right-0 {
@@ -71681,6 +71879,14 @@ video {
     right: -100%;
   }
 
+  .md\:-right-7px {
+    right: -7px;
+  }
+
+  .md\:-right-36px {
+    right: -36px;
+  }
+
   .md\:bottom-0 {
     bottom: 0px;
   }
@@ -72021,6 +72227,14 @@ video {
     bottom: -100%;
   }
 
+  .md\:-bottom-7px {
+    bottom: -7px;
+  }
+
+  .md\:-bottom-36px {
+    bottom: -36px;
+  }
+
   .md\:left-0 {
     left: 0px;
   }
@@ -72359,6 +72573,14 @@ video {
 
   .md\:-left-full {
     left: -100%;
+  }
+
+  .md\:-left-7px {
+    left: -7px;
+  }
+
+  .md\:-left-36px {
+    left: -36px;
   }
 
   .md\:isolate {
@@ -75705,6 +75927,10 @@ video {
 
   .md\:w-330px {
     width: 330px;
+  }
+
+  .md\:w-7px {
+    width: 7px;
   }
 
   .md\:min-w-0 {
@@ -87515,8 +87741,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-header-md {
+    background-image: url("../img/banners/plantao-saude-1-background-header.webp");
+  }
+
   .md\:bg-header {
-    background-image: url("../view/assets/img/banners/plantao-saude-1-background-header.webp");
+    background-image: url("../img/banners/fundo-topo-mobile.webp");
   }
 
   .md\:from-transparent {
@@ -104275,6 +104505,20 @@ video {
     left: -100%;
   }
 
+  .lg\:-inset-7px {
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+  }
+
+  .lg\:-inset-36px {
+    top: -36px;
+    right: -36px;
+    bottom: -36px;
+    left: -36px;
+  }
+
   .lg\:inset-x-0 {
     left: 0px;
     right: 0px;
@@ -104698,6 +104942,16 @@ video {
   .lg\:-inset-x-full {
     left: -100%;
     right: -100%;
+  }
+
+  .lg\:-inset-x-7px {
+    left: -7px;
+    right: -7px;
+  }
+
+  .lg\:-inset-x-36px {
+    left: -36px;
+    right: -36px;
   }
 
   .lg\:inset-y-0 {
@@ -105125,6 +105379,16 @@ video {
     bottom: -100%;
   }
 
+  .lg\:-inset-y-7px {
+    top: -7px;
+    bottom: -7px;
+  }
+
+  .lg\:-inset-y-36px {
+    top: -36px;
+    bottom: -36px;
+  }
+
   .lg\:top-0 {
     top: 0px;
   }
@@ -105463,6 +105727,14 @@ video {
 
   .lg\:-top-full {
     top: -100%;
+  }
+
+  .lg\:-top-7px {
+    top: -7px;
+  }
+
+  .lg\:-top-36px {
+    top: -36px;
   }
 
   .lg\:right-0 {
@@ -105805,6 +106077,14 @@ video {
     right: -100%;
   }
 
+  .lg\:-right-7px {
+    right: -7px;
+  }
+
+  .lg\:-right-36px {
+    right: -36px;
+  }
+
   .lg\:bottom-0 {
     bottom: 0px;
   }
@@ -106145,6 +106425,14 @@ video {
     bottom: -100%;
   }
 
+  .lg\:-bottom-7px {
+    bottom: -7px;
+  }
+
+  .lg\:-bottom-36px {
+    bottom: -36px;
+  }
+
   .lg\:left-0 {
     left: 0px;
   }
@@ -106483,6 +106771,14 @@ video {
 
   .lg\:-left-full {
     left: -100%;
+  }
+
+  .lg\:-left-7px {
+    left: -7px;
+  }
+
+  .lg\:-left-36px {
+    left: -36px;
   }
 
   .lg\:isolate {
@@ -109829,6 +110125,10 @@ video {
 
   .lg\:w-330px {
     width: 330px;
+  }
+
+  .lg\:w-7px {
+    width: 7px;
   }
 
   .lg\:min-w-0 {
@@ -121639,8 +121939,12 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-header-md {
+    background-image: url("../img/banners/plantao-saude-1-background-header.webp");
+  }
+
   .lg\:bg-header {
-    background-image: url("../view/assets/img/banners/plantao-saude-1-background-header.webp");
+    background-image: url("../img/banners/fundo-topo-mobile.webp");
   }
 
   .lg\:from-transparent {

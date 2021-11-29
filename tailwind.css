@@ -10,7 +10,6 @@
         font-weight: 400;
         src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap) format('woff2'),
         local('sans-serif');
-
         font-display: swap;
     }
 
@@ -23,7 +22,15 @@
     }
 
     .btn-request-quote {
-        @apply flex items-center justify-center gap-3 text-center px-4 py-3  text-white text-xl rounded-md cursor-pointer transform hover:-translate-y-0.5 hover:shadow-md
+        @apply w-full flex items-center justify-center gap-3 text-center px-4 py-3 text-white font-bold text-xl rounded-md cursor-pointer transform hover:-translate-y-0.5 hover:shadow-md
+    }
+
+    .bg-instagram {
+        background: #f09433;
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     }
 
     .animate-ease-in-out {
