@@ -33,7 +33,16 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     }
 
+    .modal > strong {
+        font-weight: bold;
+        color: #F78600
+    }
+
     .animate-ease-in-out {
         @apply transition duration-200 ease-in-out
+    }
+
+    [x-cloak] {
+        display: none !important;
     }
 }

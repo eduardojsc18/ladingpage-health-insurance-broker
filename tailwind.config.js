@@ -31,6 +31,10 @@ module.exports = {
           'secondary': '#55555A'
         },
 
+        orange: {
+          'orange': '#f78600',
+        },
+
         blue: {
           'contrast': '#327FDB',
           'light': '#2196f3',
